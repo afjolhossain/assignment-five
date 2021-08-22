@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My five number Assignment</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="">
+            <div class="grid grid-cols-2">
+                <div class="computer w-3/4 h-3/4  ">
+                    <img class="img-fluid" src="images/mac.png" alt="">
+
+                </div>
+                <div class="computer-details w-3/4 h-3/4">
+                    <h1 class="font-bold text-4xl ">Customize Your Blue 24-Inch IMac with Apple MI chip</h1>
+                    <p class="font-medium mb-8">
+                        If you can dream it, you can do it on iMac. It’s beautifully designed, incredibly intuitive, and
+                        packed with powerful tools that let you take any idea to the next level. and the new 24-inch
+                        model elevates the experience in every way, with faster processors and graphics, expended memory
+                        and storage, enhanced audio and video capabilities and an even mostunning Retina 4.5k display.
+                    </p>
+                    <div class="Memory font-bold mb-6">
+                        <h4>Memory</h4>
+                        <button id="8GB-Memory" class="border-4 shadow-md">8GB unified Memory </button>
+                        <button id="16GB-Memory" class="border-4 shadow-md">16GB unified Memory </button>
+                    </div>
+                    <div class="Storage font-bold mb-6">
+                        <h4>Storage</h4>
+                        <button id="storage-256" class="border-4 shadow-md">256GB SSD storage</button>
+                        <button id="storage-512" class="border-4 shadow-md">512GB SSD storage</button>
+                        <button id="storage-1TB" class="border-4 shadow-md">1tB SSD storage</button>
+                    </div>
+                    <div class="Delivery-option font-bold">
+                        <h4>choose Your Delivery option</h4>
+                        <button id="Delivery-F25" class="border-4 shadow-md">Friday,Aug 25 FREE Prime Delivery</button>
+                        <button id="Delivery-F21" class="border-4 shadow-md">Friday,Aug 21 Delivery Charge $20</button>
+                    </div><br>
+
+                    <div class="cart-item ">
+                        <div class="row flex justify-between">
+
+                            <div class="col-md-8">
+                                <h5>Best price </h5>
+                                <h5>Extra Memory cost</h5>
+                                <h5>Extra Storage cost</h5>
+                                <h5>Delivery charge</h5>
+                                <h5>Total Price</h5>
+                            </div>
+
+                            <div class="col-md-4   ">
+                                <h5>$ <span id="best-Price">1299</span></h5>
+                                <h5>$<span id="extra-Memory">0</span></h5>
+                                <h5>$ <span id="extra-Storage">0</span></h5>
+                                <h5>$ <span id="Delivery-charge">0</span></h5>
+                                <h5>$ <span id="Total-Price">1299</span></h5>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl mb-4">add opmo code</h3>
+                            <input id="user-Apply" class="border block border-gray-400	rounded w-1/4 mb-4 px-2" type=""
+                                name="" id="" placeholder="">
+                            <button id="apply-btn" class="bg-yellow-600 px-4 rounded py-2 text-white font-medium">
+                                Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <h1 class="text-center text-2xl font-bold">Total:<span id="minus">1299</span> </h1>
+        </section>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
